@@ -54,7 +54,7 @@ This will expose `Web3` on the window object.
 
 ```js
 // in node.js
-var Web3 = require('web3');
+var Web3 = require('@smilo-platform/web3');
 
 var web3 = new Web3('ws://localhost:8546');
 console.log(web3);

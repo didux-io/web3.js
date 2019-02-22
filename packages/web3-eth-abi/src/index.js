@@ -22,7 +22,7 @@
  */
 
 var _ = require('underscore');
-var utils = require('web3-utils');
+var utils = require('@smilo-platform/web3-utils');
 
 var EthersAbi = require('ethers/utils/abi-coder').AbiCoder;
 var ethersAbiCoder = new EthersAbi(function (type, value) {

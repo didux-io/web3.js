@@ -23,19 +23,19 @@
 "use strict";
 
 var _ = require('underscore');
-var core = require('web3-core');
-var helpers = require('web3-core-helpers');
-var Subscriptions = require('web3-core-subscriptions').subscriptions;
-var Method = require('web3-core-method');
-var utils = require('web3-utils');
-var Net = require('web3-net');
+var core = require('@smilo-platform/web3-core');
+var helpers = require('@smilo-platform/web3-core-helpers');
+var Subscriptions = require('@smilo-platform/web3-core-subscriptions').subscriptions;
+var Method = require('@smilo-platform/web3-core-method');
+var utils = require('@smilo-platform/web3-utils');
+var Net = require('@smilo-platform/web3-net');
 
-var ENS = require('web3-eth-ens');
-var Personal = require('web3-eth-personal');
-var BaseContract = require('web3-eth-contract');
-var Iban = require('web3-eth-iban');
-var Accounts = require('web3-eth-accounts');
-var abi = require('web3-eth-abi');
+var ENS = require('@smilo-platform/web3-eth-ens');
+var Personal = require('@smilo-platform/web3-eth-personal');
+var BaseContract = require('@smilo-platform/web3-eth-contract');
+var Iban = require('@smilo-platform/web3-eth-iban');
+var Accounts = require('@smilo-platform/web3-eth-accounts');
+var abi = require('@smilo-platform/web3-eth-abi');
 
 var getNetworkType = require('./getNetworkType.js');
 var formatter = helpers.formatters;
@@ -237,6 +237,13 @@ var Eth = function Eth() {
         new Method({
             name: 'getBalance',
             call: 'eth_getBalance',
+            params: 2,
+            inputFormatter: [formatter.inputAddressFormatter, formatter.inputDefaultBlockNumberFormatter],
+            outputFormatter: formatter.outputBigNumberFormatter
+        }),
+        new Method({
+            name: 'getSmiloPay',
+            call: 'eth_getSmiloPay',
             params: 2,
             inputFormatter: [formatter.inputAddressFormatter, formatter.inputDefaultBlockNumberFormatter],
             outputFormatter: formatter.outputBigNumberFormatter

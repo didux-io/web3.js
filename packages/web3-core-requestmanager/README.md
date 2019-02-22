@@ -29,8 +29,8 @@ This will expose the `Web3RequestManager` object on the window object.
 
 ```js
 // in node.js
-var Web3WsProvider = require('web3-providers-ws');
-var Web3RequestManager = require('web3-core-requestmanager');
+var Web3WsProvider = require('@smilo-platform/web3-providers-ws');
+var Web3RequestManager = require('@smilo-platform/web3-core-requestmanager');
 
 var requestManager = new Web3RequestManager(new Web3WsProvider('ws://localhost:8546'));
 ```

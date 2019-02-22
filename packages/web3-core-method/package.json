@@ -1,5 +1,5 @@
 {
-    "name": "web3-core-method",
+    "name": "@smilo-platform/web3-core-method",
     "namespace": "ethereum",
     "version": "1.0.0-beta.37",
     "description": "Creates the methods on the web3 modules. This is an internal package.",
@@ -8,9 +8,9 @@
     "main": "src/index.js",
     "dependencies": {
         "underscore": "1.8.3",
-        "web3-core-helpers": "1.0.0-beta.37",
-        "web3-core-promievent": "1.0.0-beta.37",
-        "web3-core-subscriptions": "1.0.0-beta.37",
-        "web3-utils": "1.0.0-beta.37"
+        "@smilo-platform/web3-core-helpers": "1.0.0-beta.37",
+        "@smilo-platform/web3-core-promievent": "1.0.0-beta.37",
+        "@smilo-platform/web3-core-subscriptions": "1.0.0-beta.37",
+        "@smilo-platform/web3-utils": "1.0.0-beta.37"
     }
 }

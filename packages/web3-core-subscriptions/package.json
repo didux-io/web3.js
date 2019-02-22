@@ -1,5 +1,5 @@
 {
-    "name": "web3-core-subscriptions",
+    "name": "@smilo-platform/web3-core-subscriptions",
     "namespace": "ethereum",
     "version": "1.0.0-beta.37",
     "description": "Manages web3 subscriptions. This is an internal package.",
@@ -9,6 +9,6 @@
     "dependencies": {
         "eventemitter3": "1.1.1",
         "underscore": "1.8.3",
-        "web3-core-helpers": "1.0.0-beta.37"
+        "@smilo-platform/web3-core-helpers": "1.0.0-beta.37"
     }
 }

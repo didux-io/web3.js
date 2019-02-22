@@ -1,5 +1,5 @@
 {
-  "name": "web3",
+  "name": "@smilo-platform/web3",
   "namespace": "ethereum",
   "version": "1.0.0-beta.37",
   "description": "Ethereum JavaScript API",
@@ -42,12 +42,12 @@
     }
   ],
   "dependencies": {
-    "web3-bzz": "1.0.0-beta.37",
-    "web3-core": "1.0.0-beta.37",
-    "web3-eth": "1.0.0-beta.37",
-    "web3-eth-personal": "1.0.0-beta.37",
-    "web3-net": "1.0.0-beta.37",
-    "web3-shh": "1.0.0-beta.37",
-    "web3-utils": "1.0.0-beta.37"
+    "@smilo-platform/web3-bzz": "1.0.0-beta.37",
+    "@smilo-platform/web3-core": "1.0.0-beta.37",
+    "@smilo-platform/web3-eth": "1.0.0-beta.37",
+    "@smilo-platform/web3-eth-personal": "1.0.0-beta.37",
+    "@smilo-platform/web3-net": "1.0.0-beta.37",
+    "@smilo-platform/web3-shh": "1.0.0-beta.37",
+    "@smilo-platform/web3-utils": "1.0.0-beta.37"
   }
 }
