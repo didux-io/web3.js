@@ -22,10 +22,10 @@
 
 "use strict";
 
-var core = require('@smilo-platform/web3-core');
+var core = require('@smilo-platform/web3-core-web');
 var Method = require('@smilo-platform/web3-core-method');
 var utils = require('@smilo-platform/web3-utils');
-var Net = require('@smilo-platform/web3-net');
+var Net = require('@smilo-platform/web3-net-web');
 
 var formatters = require('@smilo-platform/web3-core-helpers').formatters;
 

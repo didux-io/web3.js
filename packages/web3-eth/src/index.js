@@ -23,18 +23,18 @@
 "use strict";
 
 var _ = require('underscore');
-var core = require('@smilo-platform/web3-core');
+var core = require('@smilo-platform/web3-core-web');
 var helpers = require('@smilo-platform/web3-core-helpers');
 var Subscriptions = require('@smilo-platform/web3-core-subscriptions').subscriptions;
 var Method = require('@smilo-platform/web3-core-method');
 var utils = require('@smilo-platform/web3-utils');
-var Net = require('@smilo-platform/web3-net');
+var Net = require('@smilo-platform/web3-net-web');
 
-var ENS = require('@smilo-platform/web3-eth-ens');
-var Personal = require('@smilo-platform/web3-eth-personal');
-var BaseContract = require('@smilo-platform/web3-eth-contract');
+var ENS = require('@smilo-platform/web3-eth-ens-web');
+var Personal = require('@smilo-platform/web3-eth-personal-web');
+var BaseContract = require('@smilo-platform/web3-eth-contract-web');
 var Iban = require('@smilo-platform/web3-eth-iban');
-var Accounts = require('@smilo-platform/web3-eth-accounts');
+var Accounts = require('@smilo-platform/web3-eth-accounts-web');
 var abi = require('@smilo-platform/web3-eth-abi');
 
 var getNetworkType = require('./getNetworkType.js');

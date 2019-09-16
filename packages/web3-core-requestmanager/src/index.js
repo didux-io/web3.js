@@ -51,7 +51,7 @@ RequestManager.givenProvider = givenProvider;
 
 RequestManager.providers = {
     WebsocketProvider: require('@smilo-platform/web3-providers-ws'),
-    HttpProvider: require('@smilo-platform/web3-providers-http'),
+    HttpProvider: require('@smilo-platform/web3-providers-http-web'),
     IpcProvider: require('@smilo-platform/web3-providers-ipc')
 };
 

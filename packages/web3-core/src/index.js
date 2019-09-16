@@ -23,7 +23,7 @@
 "use strict";
 
 
-var requestManager = require('@smilo-platform/web3-core-requestmanager');
+var requestManager = require('@smilo-platform/web3-core-requestmanager-web');
 var extend = require('./extend.js');
 
 module.exports = {

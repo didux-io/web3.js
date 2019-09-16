@@ -23,7 +23,7 @@
 "use strict";
 
 var _ = require("underscore");
-var core = require('@smilo-platform/web3-core');
+var core = require('@smilo-platform/web3-core-web');
 var Method = require('@smilo-platform/web3-core-method');
 var Promise = require('any-promise');
 var Account = require("eth-lib/lib/account");

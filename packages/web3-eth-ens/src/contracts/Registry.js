@@ -21,7 +21,7 @@
 "use strict";
 
 var _ = require('underscore');
-var Contract = require('@smilo-platform/web3-eth-contract');
+var Contract = require('@smilo-platform/web3-eth-contract-web');
 var namehash = require('eth-ens-namehash');
 var PromiEvent = require('@smilo-platform/web3-core-promievent');
 var REGISTRY_ABI = require('../ressources/ABI/Registry');

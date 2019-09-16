@@ -32,7 +32,7 @@
 
 
 var _ = require('underscore');
-var core = require('@smilo-platform/web3-core');
+var core = require('@smilo-platform/web3-core-web');
 var Method = require('@smilo-platform/web3-core-method');
 var utils = require('@smilo-platform/web3-utils');
 var Subscription = require('@smilo-platform/web3-core-subscriptions').subscription;

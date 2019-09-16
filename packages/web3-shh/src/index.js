@@ -22,11 +22,11 @@
 
 "use strict";
 
-var core = require('@smilo-platform/web3-core');
+var core = require('@smilo-platform/web3-core-web');
 var Subscriptions = require('@smilo-platform/web3-core-subscriptions').subscriptions;
 var Method = require('@smilo-platform/web3-core-method');
 // var formatters = require('@smilo-platform/web3-core-helpers').formatters;
-var Net = require('@smilo-platform/web3-net');
+var Net = require('@smilo-platform/web3-net-web');
 
 
 var Shh = function Shh() {

@@ -29,11 +29,11 @@
 
 
 var version = require('../package.json').version;
-var core = require('@smilo-platform/web3-core');
-var Eth = require('@smilo-platform/web3-eth');
-var Net = require('@smilo-platform/web3-net');
-var Personal = require('@smilo-platform/web3-eth-personal');
-var Shh = require('@smilo-platform/web3-shh');
+var core = require('@smilo-platform/web3-core-web');
+var Eth = require('@smilo-platform/web3-eth-web');
+var Net = require('@smilo-platform/web3-net-web');
+var Personal = require('@smilo-platform/web3-eth-personal-web');
+var Shh = require('@smilo-platform/web3-shh-web');
 var Bzz = require('@smilo-platform/web3-bzz');
 var utils = require('@smilo-platform/web3-utils');
 
