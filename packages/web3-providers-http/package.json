@@ -1,5 +1,5 @@
 {
-    "name": "@smilo-platform/web3-providers-http",
+    "name": "@smilo-platform/web3-providers-http-web",
     "namespace": "ethereum",
     "version": "1.0.0-beta.37",
     "description": "Module to handle web3 RPC connections over HTTP.",
