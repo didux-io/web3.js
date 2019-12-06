@@ -23,9 +23,9 @@
 "use strict";
 
 
-var formatters = require('@smilo-platform/web3-core-helpers').formatters;
-var Method = require('@smilo-platform/web3-core-method');
-var utils = require('@smilo-platform/web3-utils');
+var formatters = require('@didux-io/web3-core-helpers').formatters;
+var Method = require('@didux-io/web3-core-method');
+var utils = require('@didux-io/web3-utils');
 
 
 var extend = function (pckg) {

@@ -19,7 +19,7 @@
  *
  * To initialize a contract use:
  *
- *  var Contract = require('@smilo-platform/web3-eth-contract');
+ *  var Contract = require('@didux-io/web3-eth-contract');
  *  Contract.setProvider('ws://localhost:8546');
  *  var contract = new Contract(abi, address, ...);
  *
@@ -32,14 +32,14 @@
 
 
 var _ = require('underscore');
-var core = require('@smilo-platform/web3-core-web');
-var Method = require('@smilo-platform/web3-core-method');
-var utils = require('@smilo-platform/web3-utils');
-var Subscription = require('@smilo-platform/web3-core-subscriptions').subscription;
-var formatters = require('@smilo-platform/web3-core-helpers').formatters;
-var errors = require('@smilo-platform/web3-core-helpers').errors;
-var promiEvent = require('@smilo-platform/web3-core-promievent');
-var abi = require('@smilo-platform/web3-eth-abi');
+var core = require('@didux-io/web3-core-web');
+var Method = require('@didux-io/web3-core-method');
+var utils = require('@didux-io/web3-utils');
+var Subscription = require('@didux-io/web3-core-subscriptions').subscription;
+var formatters = require('@didux-io/web3-core-helpers').formatters;
+var errors = require('@didux-io/web3-core-helpers').errors;
+var promiEvent = require('@didux-io/web3-core-promievent');
+var abi = require('@didux-io/web3-eth-abi');
 
 
 /**

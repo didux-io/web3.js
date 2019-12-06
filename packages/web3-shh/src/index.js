@@ -22,11 +22,11 @@
 
 "use strict";
 
-var core = require('@smilo-platform/web3-core-web');
-var Subscriptions = require('@smilo-platform/web3-core-subscriptions').subscriptions;
-var Method = require('@smilo-platform/web3-core-method');
-// var formatters = require('@smilo-platform/web3-core-helpers').formatters;
-var Net = require('@smilo-platform/web3-net-web');
+var core = require('@didux-io/web3-core-web');
+var Subscriptions = require('@didux-io/web3-core-subscriptions').subscriptions;
+var Method = require('@didux-io/web3-core-method');
+// var formatters = require('@didux-io/web3-core-helpers').formatters;
+var Net = require('@didux-io/web3-net-web');
 
 
 var Shh = function Shh() {

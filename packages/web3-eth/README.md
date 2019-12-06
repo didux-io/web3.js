@@ -29,7 +29,7 @@ This will expose the `Web3Eth` object on the window object.
 
 ```js
 // in node.js
-var Web3Eth = require('@smilo-platform/web3-eth');
+var Web3Eth = require('@didux-io/web3-eth');
 
 var eth = new Web3Eth('ws://localhost:8546');
 ```

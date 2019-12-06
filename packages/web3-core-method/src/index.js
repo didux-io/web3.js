@@ -24,11 +24,11 @@
 "use strict";
 
 var _ = require('underscore');
-var errors = require('@smilo-platform/web3-core-helpers').errors;
-var formatters = require('@smilo-platform/web3-core-helpers').formatters;
-var utils = require('@smilo-platform/web3-utils');
-var promiEvent = require('@smilo-platform/web3-core-promievent');
-var Subscriptions = require('@smilo-platform/web3-core-subscriptions').subscriptions;
+var errors = require('@didux-io/web3-core-helpers').errors;
+var formatters = require('@didux-io/web3-core-helpers').formatters;
+var utils = require('@didux-io/web3-utils');
+var promiEvent = require('@didux-io/web3-core-promievent');
+var Subscriptions = require('@didux-io/web3-core-subscriptions').subscriptions;
 
 var TIMEOUTBLOCK = 50;
 var POLLINGTIMEOUT = 15 * TIMEOUTBLOCK; // ~average block time (seconds) * TIMEOUTBLOCK

@@ -25,7 +25,7 @@
 
 "use strict";
 
-var utils = require('@smilo-platform/web3-utils');
+var utils = require('@didux-io/web3-utils');
 var BigNumber = require('bn.js');
 
 

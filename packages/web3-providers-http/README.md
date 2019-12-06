@@ -29,7 +29,7 @@ This will expose the `Web3HttpProvider` object on the window object.
 
 ```js
 // in node.js
-var Web3HttpProvider = require('@smilo-platform/web3-providers-http');
+var Web3HttpProvider = require('@didux-io/web3-providers-http');
 
 var options = {
     timeout: 20000, // milliseconds,

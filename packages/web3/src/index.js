@@ -29,13 +29,13 @@
 
 
 var version = require('../package.json').version;
-var core = require('@smilo-platform/web3-core-web');
-var Eth = require('@smilo-platform/web3-eth-web');
-var Net = require('@smilo-platform/web3-net-web');
-var Personal = require('@smilo-platform/web3-eth-personal-web');
-var Shh = require('@smilo-platform/web3-shh-web');
-var Bzz = require('@smilo-platform/web3-bzz');
-var utils = require('@smilo-platform/web3-utils');
+var core = require('@didux-io/web3-core-web');
+var Eth = require('@didux-io/web3-eth-web');
+var Net = require('@didux-io/web3-net-web');
+var Personal = require('@didux-io/web3-eth-personal-web');
+var Shh = require('@didux-io/web3-shh-web');
+var Bzz = require('@didux-io/web3-bzz');
+var utils = require('@didux-io/web3-utils');
 
 var Web3 = function Web3() {
     var _this = this;

@@ -23,7 +23,7 @@
 "use strict";
 
 var _ = require('underscore');
-var errors = require('@smilo-platform/web3-core-helpers').errors;
+var errors = require('@didux-io/web3-core-helpers').errors;
 var EventEmitter = require('eventemitter3');
 
 function Subscription(options) {

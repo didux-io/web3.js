@@ -17,7 +17,7 @@ npm install web3-core-helpers
 
 ```js
 // in node.js
-var helpers = require('@smilo-platform/web3-core-helpers');
+var helpers = require('@didux-io/web3-core-helpers');
 
 helpers.formatters;
 helpers.errors;

@@ -25,8 +25,8 @@
 
 
 var _ = require('underscore');
-var utils = require('@smilo-platform/web3-utils');
-var Iban = require('@smilo-platform/web3-eth-iban');
+var utils = require('@didux-io/web3-utils');
+var Iban = require('@didux-io/web3-eth-iban');
 
 /**
  * Should the format output to a big number

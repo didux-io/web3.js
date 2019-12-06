@@ -9,7 +9,7 @@ The web3.js object is an umbrella package to house all ethereum related modules.
 
 .. code-block:: javascript
 
-    var Web3 = require('@smilo-platform/web3');
+    var Web3 = require('@didux-io/web3');
 
     > Web3.utils
     > Web3.version

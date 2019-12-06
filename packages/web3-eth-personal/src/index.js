@@ -22,12 +22,12 @@
 
 "use strict";
 
-var core = require('@smilo-platform/web3-core-web');
-var Method = require('@smilo-platform/web3-core-method');
-var utils = require('@smilo-platform/web3-utils');
-var Net = require('@smilo-platform/web3-net-web');
+var core = require('@didux-io/web3-core-web');
+var Method = require('@didux-io/web3-core-method');
+var utils = require('@didux-io/web3-utils');
+var Net = require('@didux-io/web3-net-web');
 
-var formatters = require('@smilo-platform/web3-core-helpers').formatters;
+var formatters = require('@didux-io/web3-core-helpers').formatters;
 
 
 var Personal = function Personal() {

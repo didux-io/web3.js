@@ -12,7 +12,7 @@ The ``web3-net`` package allows you to interact with the Ethereum nodes network 
 
 .. code-block:: javascript
 
-    var Net = require('@smilo-platform/web3-net');
+    var Net = require('@didux-io/web3-net');
 
     // "Personal.providers.givenProvider" will be set if in an Ethereum supported browser.
     var net = new Net(Net.givenProvider || 'ws://some.local-or-remote.node:8546');
@@ -20,7 +20,7 @@ The ``web3-net`` package allows you to interact with the Ethereum nodes network 
 
     // or using the web3 umbrella package
 
-    var Web3 = require('@smilo-platform/web3');
+    var Web3 = require('@didux-io/web3');
     var web3 = new Web3(Web3.givenProvider || 'ws://some.local-or-remote.node:8546');
 
     // -> web3.eth.net

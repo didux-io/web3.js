@@ -29,7 +29,7 @@ This will expose the `Web3EthAccounts` object on the window object.
 
 ```js
 // in node.js
-var Web3EthAccounts = require('@smilo-platform/web3-eth-accounts');
+var Web3EthAccounts = require('@didux-io/web3-eth-accounts');
 
 var account = new Web3EthAccounts('ws://localhost:8546');
 account.create();

@@ -15,7 +15,7 @@ To use this package standalone use:
 
 .. code-block:: javascript
 
-    var Accounts = require('@smilo-platform/web3-eth-accounts');
+    var Accounts = require('@didux-io/web3-eth-accounts');
 
     // Passing in the eth or web3 package is necessary to allow retrieving chainId, gasPrice and nonce automatically
     // for accounts.signTransaction().

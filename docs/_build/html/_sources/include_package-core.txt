@@ -33,7 +33,7 @@ Example
 
 .. code-block:: javascript
 
-    var Web3 = require('@smilo-platform/web3');
+    var Web3 = require('@didux-io/web3');
     var web3 = new Web3('http://localhost:8545');
     // or
     var web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
@@ -83,7 +83,7 @@ Example
 
 .. code-block:: javascript
 
-    var Web3 = require('@smilo-platform/web3');
+    var Web3 = require('@didux-io/web3');
     // use the given Provider, e.g in Mist, or instantiate a new websocket provider
     var web3 = new Web3(Web3.givenProvider || 'ws://remotenode.com:8546');
     // or

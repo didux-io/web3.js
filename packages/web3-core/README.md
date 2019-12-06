@@ -18,7 +18,7 @@ npm install web3-core
 
 ```js
 // in node.js
-var core = require('@smilo-platform/web3-core');
+var core = require('@didux-io/web3-core');
 
 var CoolLib = function CoolLib() {
 

@@ -29,7 +29,7 @@ This will expose the `Web3EthIban` object on the window object.
 
 ```js
 // in node.js
-var Web3EthIban = require('@smilo-platform/web3-eth-iban');
+var Web3EthIban = require('@didux-io/web3-eth-iban');
 
 var iban = new Web3EthIban('XE75JRZCTTLBSYEQBGAS7GID8DKR7QY0QA3');
 iban.toAddress()

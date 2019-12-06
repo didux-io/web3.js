@@ -24,7 +24,7 @@
 
 
 var _ = require('underscore');
-var errors = require('@smilo-platform/web3-core-helpers').errors;
+var errors = require('@didux-io/web3-core-helpers').errors;
 var Jsonrpc = require('./jsonrpc.js');
 var BatchManager = require('./batch.js');
 var givenProvider = require('./givenProvider.js');
@@ -50,9 +50,9 @@ var RequestManager = function RequestManager(provider) {
 RequestManager.givenProvider = givenProvider;
 
 RequestManager.providers = {
-    WebsocketProvider: require('@smilo-platform/web3-providers-ws'),
-    HttpProvider: require('@smilo-platform/web3-providers-http-web'),
-    IpcProvider: require('@smilo-platform/web3-providers-ipc')
+    WebsocketProvider: require('@didux-io/web3-providers-ws'),
+    HttpProvider: require('@didux-io/web3-providers-http-web'),
+    IpcProvider: require('@didux-io/web3-providers-ipc')
 };
 
 

@@ -15,7 +15,7 @@ This allows you to interact with smart contracts as if they were JavaScript obje
 To use it standalone:
 
 .. code-block:: javascript
-    var Contract = require('@smilo-platform/web3-eth-contract');
+    var Contract = require('@didux-io/web3-eth-contract');
 
     // set provider for all later instances to use
     Contract.setProvider('ws://localhost:8546');

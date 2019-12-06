@@ -34,7 +34,7 @@ If this property is ``null`` you need to connect to a remote/local node.
 
 .. code-block:: javascript
 
-    // in node.js use: var Web3 = require('@smilo-platform/web3');
+    // in node.js use: var Web3 = require('@didux-io/web3');
 
     var web3 = new Web3(Web3.givenProvider || "ws://localhost:8546");
 

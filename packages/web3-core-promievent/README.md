@@ -29,7 +29,7 @@ This will expose the `Web3PromiEvent` object on the window object.
 
 ```js
 // in node.js
-var Web3PromiEvent = require('@smilo-platform/web3-core-promievent');
+var Web3PromiEvent = require('@didux-io/web3-core-promievent');
 
 var myFunc = function(){
     var promiEvent = Web3PromiEvent();

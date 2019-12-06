@@ -20,7 +20,7 @@
 
 "use strict";
 
-var PromiEvent = require('@smilo-platform/web3-core-promievent');
+var PromiEvent = require('@didux-io/web3-core-promievent');
 var namehash = require('eth-ens-namehash');
 var _ = require('underscore');
 
